@@ -1,0 +1,185 @@
+ 
+body, p, h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.page-container{
+height: 100vh;
+display: flex;
+}
+.left-container{
+display: flex;
+flex-direction: column;
+flex: 1;
+background-color: rgb(61, 146, 215);
+color: white;
+}
+.right-container{
+flex: 4;
+background-color: gainsboro;
+display: flex;
+flex-direction: column;
+}
+.sidelink{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    gap: 8px;
+    font-weight: 700;
+    display: flex;
+}
+.sidebar{
+  margin-top: 40px;  
+}
+.sidebar2{
+margin-top: 120px;
+}
+.icon{
+    height: 32px;
+    width: 32px;
+    stroke: white;
+    fill: white;
+}
+.dashlink{
+    display: flex;
+    gap: 8px;
+    align-items:center;
+    font-weight: 700;
+}
+.home{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.profile{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.messages{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.history{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.tasks{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.communication{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.settings{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.support{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.privacy{
+   height: 16px;
+   width: 16px;
+   stroke: white;
+   fill: white;
+   align-items: center;
+}
+.bottomcontainer{
+flex: 1;
+}
+.topnav{
+display: flex;
+flex-direction: column;
+background-color: white;
+padding: 32px 16px;
+
+}
+.search{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    max-width: 240px;
+}
+.search-icon{
+    height: 20px;
+    width: 20px;
+    fill: #a09c9c;
+    stroke: #bab5b5;
+}
+.searchtext{
+    color: #bab5b5;
+
+}
+.imgo{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+.olivia{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.notif{
+    
+    height: 20px;
+    padding-right: 20px;
+    stroke: white;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    margin-top:24px ;
+}
+.leftuser{
+display: flex;
+gap: 12px;
+}
+.rightuser{
+display: flex;
+gap: 12px;
+align-items: center;
+}
+.button{
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: #0a90ce;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.dark{
+    background-color: #063247;
+}
+
