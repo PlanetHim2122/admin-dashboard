@@ -3,7 +3,7 @@ body, p, h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 .page-container{
-height: 100vh;
+min-height: 100vh;
 display: flex;
 }
 .left-container{
@@ -109,6 +109,10 @@ margin-top: 120px;
 }
 .bottomcontainer{
 flex: 1;
+display: flex;
+gap: 16px;
+padding: 16px;
+background-color: #e7e7e7;
 }
 .topnav{
 display: flex;
@@ -130,6 +134,7 @@ align-items: center;
     background-color: #eeeeee;
     border-radius: 10px;
     max-width: 240px;
+    padding: 8px 12px
 }
 .search-icon{
     height: 20px;
@@ -182,4 +187,113 @@ align-items: center;
 .dark{
     background-color: #063247;
 }
-
+.leftbottom{
+    flex: 2.6;
+}
+.projects{
+    flex: 2.6;
+}
+.rightbottom{
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+.announcements-box{
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+}
+.announcements-box h4{
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+.announcements{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.announcements h5{
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.announcements p.gray{
+    margin: 4px 0;
+    color: #666;
+    font-size: 12px;
+}
+.announcements hr.gray{
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 8px 0;
+}
+.trending-box{
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+}
+.trending-box h4{
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+.trending-profile{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.trending-profile:last-child{
+    margin-bottom: 0;
+}
+.trending-profile img{
+    border-radius: 50%;
+}
+.trending-profile div p{
+    margin: 2px 0;
+    font-size: 12px;
+    padding: 8px;
+}
+.trending-profile div p:last-child{
+    color: #666;
+}
+.projectgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    row-gap: 16px;
+}
+.margin{
+    margin-top: 10px;
+}
+.project-cell {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: white;
+    border-left: 4px solid gold;
+    gap: 16px;
+}
+.project-cell h5{
+    margin: 0;
+    font-weight: 700;
+}
+.project-cell p{
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+    flex: 1;
+}
+.project-actions{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+.project-icon {
+    height: 20px;
+    width: 20px;
+    fill: #666;
+    cursor: pointer;
+}
